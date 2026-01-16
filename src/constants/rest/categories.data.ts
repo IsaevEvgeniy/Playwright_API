@@ -1,0 +1,30 @@
+export const CATEGORIES_DATA = {
+  NAMES: {
+    CLOTHES: 'Clothes',
+    ELECTRONICS: 'Electronics',
+    FURNITURE: 'Furniture',
+    BOOKS: 'Books',
+    TOYS: 'Toys',
+    SPORTS: 'Sports',
+    BEAUTY: 'Beauty',
+    FOOD: 'Food',
+    AUTOMOTIVE: 'Automotive',
+    JEWELRY: 'Jewelry',
+    HOME: 'Home & Garden',
+    HEALTH: 'Health & Wellness',
+  } as const,
+
+  IMAGES: {
+    DEFAULT: 'https://placehold.co/600x400',
+    GRAY: 'https://placehold.co/600x400/EEE/31343C',
+    RANDOM: 'https://picsum.photos/600/400',
+    RANDOM_TECH: 'https://picsum.photos/600/400/tech',
+    RANDOM_NATURE: 'https://picsum.photos/600/400/nature',
+    CITY: 'https://loremflickr.com/600/400/city',
+    ANIMAL: 'https://loremflickr.com/600/400/animal',
+    FOOD: 'https://loremflickr.com/600/400/food',
+    UNSPLASH_RANDOM: 'https://source.unsplash.com/random/600x400',
+    UNSPLASH_TECH: 'https://source.unsplash.com/600x400/?technology',
+    UNSPLASH_NATURE: 'https://source.unsplash.com/600x400/?nature',
+  } as const,
+};
