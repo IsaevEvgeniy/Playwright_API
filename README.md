@@ -118,3 +118,11 @@ npx playwright show-report
 ```bash
 npx playwright test --reporter=html && npx playwright show-report
 ```
+
+## 5. Настройка окружения
+Для пользовательской настройки создайте файл .env:
+
+```bash
+USER_EMAIL=test@mail.com
+USER_PASSWORD=password
+```
